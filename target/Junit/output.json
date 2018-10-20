@@ -1,0 +1,587 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49525722397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Parent searches for and locates item by Item Number",
+        "description": "",
+        "id": "parent-search-by-item-number;parent-searches-for-and-locates-item-by-item-number;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 269087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1208280398,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A Parent Who is logged-in",
+            "match": {
+              "location": "SignInStepdefs.a_Parent_Who_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32638678000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the parent searches for \"#35G4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#35G4",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchStepdefs.parentShouldSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2439722844,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the parent should be presented with the \"Harry Potter and the Sorcerer’s Stone: Illustrated Edition\", \"3-7\", \"by J.K. Rowling\", \"39.99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter and the Sorcerer’s Stone: Illustrated Edition",
+                  "offset": 41
+                },
+                {
+                  "val": "3-7",
+                  "offset": 103
+                },
+                {
+                  "val": "by J.K. Rowling",
+                  "offset": 110
+                },
+                {
+                  "val": "39.99",
+                  "offset": 129
+                }
+              ],
+              "location": "SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@P1"
+          },
+          {
+            "line": 3,
+            "name": "@Search"
+          },
+          {
+            "line": 3,
+            "name": "@en_US"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 277119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Parent searches for and locates item by Item Number",
+        "description": "",
+        "id": "parent-search-by-item-number;parent-searches-for-and-locates-item-by-item-number;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 232495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20770161,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A Parent Who is logged-in",
+            "match": {
+              "location": "SignInStepdefs.a_Parent_Who_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18743094649,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the parent searches for \"#14L5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#14L5",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchStepdefs.parentShouldSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4901480962,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the parent should be presented with the \"Old School\", \"3-7\", \"Jeff Kinney\", \"13.95\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Old School",
+                  "offset": 41
+                },
+                {
+                  "val": "3-7",
+                  "offset": 55
+                },
+                {
+                  "val": "Jeff Kinney",
+                  "offset": 62
+                },
+                {
+                  "val": "13.95",
+                  "offset": 77
+                }
+              ],
+              "location": "SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@P1"
+          },
+          {
+            "line": 3,
+            "name": "@Search"
+          },
+          {
+            "line": 3,
+            "name": "@en_US"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 509168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Parent searches for and locates item by Item Number",
+        "description": "",
+        "id": "parent-search-by-item-number;parent-searches-for-and-locates-item-by-item-number;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 60690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51901752,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A Parent Who is logged-in",
+            "match": {
+              "location": "SignInStepdefs.a_Parent_Who_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9347927870,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the parent searches for \"#44T4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#44T4",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchStepdefs.parentShouldSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 862006768,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the parent should be presented with the \"The Marvels\", \"4-7\", \"by Brian Selznick\", \"32.99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Marvels",
+                  "offset": 41
+                },
+                {
+                  "val": "4-7",
+                  "offset": 56
+                },
+                {
+                  "val": "by Brian Selznick",
+                  "offset": 63
+                },
+                {
+                  "val": "32.99",
+                  "offset": 84
+                }
+              ],
+              "location": "SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@P1"
+          },
+          {
+            "line": 3,
+            "name": "@Search"
+          },
+          {
+            "line": 3,
+            "name": "@en_US"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 335132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Parent searches for and locates item by Item Number",
+        "description": "",
+        "id": "parent-search-by-item-number;parent-searches-for-and-locates-item-by-item-number;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 64706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43688560,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A Parent Who is logged-in",
+            "match": {
+              "location": "SignInStepdefs.a_Parent_Who_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4155230003,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the parent searches for \"#21B4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#21B4",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchStepdefs.parentShouldSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815101653,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the parent should be presented with the \"Flip and Flop\", \"Pre-K-2\", \"by Dawn Apperley\", \"12.95\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flip and Flop",
+                  "offset": 41
+                },
+                {
+                  "val": "Pre-K-2",
+                  "offset": 58
+                },
+                {
+                  "val": "by Dawn Apperley",
+                  "offset": 69
+                },
+                {
+                  "val": "12.95",
+                  "offset": 89
+                }
+              ],
+              "location": "SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@P1"
+          },
+          {
+            "line": 3,
+            "name": "@Search"
+          },
+          {
+            "line": 3,
+            "name": "@en_US"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 234727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Parent searches for and locates item by Item Number",
+        "description": "",
+        "id": "parent-search-by-item-number;parent-searches-for-and-locates-item-by-item-number;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 138337,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17991376,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A Parent Who is logged-in",
+            "match": {
+              "location": "SignInStepdefs.a_Parent_Who_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18730196300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the parent searches for \"#78K4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#78K4",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchStepdefs.parentShouldSearchFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1176885520,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the parent should be presented with the \"Snowman Magic\", \"Pre-K-1\", \"by Katherine Tegen\", \"12.99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Snowman Magic",
+                  "offset": 41
+                },
+                {
+                  "val": "Pre-K-1",
+                  "offset": 58
+                },
+                {
+                  "val": "by Katherine Tegen",
+                  "offset": 69
+                },
+                {
+                  "val": "12.99",
+                  "offset": 91
+                }
+              ],
+              "location": "SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@P1"
+          },
+          {
+            "line": 3,
+            "name": "@Search"
+          },
+          {
+            "line": 3,
+            "name": "@en_US"
+          }
+        ]
+      }
+    ],
+    "name": "Parent Search By Item Number",
+    "description": "",
+    "id": "parent-search-by-item-number",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Search.feature"
+  }
+]

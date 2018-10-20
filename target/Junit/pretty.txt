@@ -1,0 +1,39 @@
+Feature: Parent Search By Item Number
+
+  @Search @en_US @P1
+  Scenario Outline: Parent searches for and locates item by Item Number                                             # src/test/resources/features/Search.feature:4
+    Given A Parent Who is logged-in
+    When the parent searches for "<ValidItemNumber>"
+    Then the parent should be presented with the "<ItemDescription>", "<GradeRange>", "<AuthorName>", "<ListPrice>"
+
+    Examples: 
+
+  @P1 @Search @en_US
+  Scenario Outline: Parent searches for and locates item by Item Number                                                                          # src/test/resources/features/Search.feature:11
+    Given A Parent Who is logged-in                                                                                                              # SignInStepdefs.a_Parent_Who_is_logged_in()
+    When the parent searches for "#35G4"                                                                                                         # SearchStepdefs.parentShouldSearchFor(String)
+    Then the parent should be presented with the "Harry Potter and the Sorcerer’s Stone: Illustrated Edition", "3-7", "by J.K. Rowling", "39.99" # SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)
+
+  @P1 @Search @en_US
+  Scenario Outline: Parent searches for and locates item by Item Number                      # src/test/resources/features/Search.feature:12
+    Given A Parent Who is logged-in                                                          # SignInStepdefs.a_Parent_Who_is_logged_in()
+    When the parent searches for "#14L5"                                                     # SearchStepdefs.parentShouldSearchFor(String)
+    Then the parent should be presented with the "Old School", "3-7", "Jeff Kinney", "13.95" # SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)
+
+  @P1 @Search @en_US
+  Scenario Outline: Parent searches for and locates item by Item Number                             # src/test/resources/features/Search.feature:13
+    Given A Parent Who is logged-in                                                                 # SignInStepdefs.a_Parent_Who_is_logged_in()
+    When the parent searches for "#44T4"                                                            # SearchStepdefs.parentShouldSearchFor(String)
+    Then the parent should be presented with the "The Marvels", "4-7", "by Brian Selznick", "32.99" # SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)
+
+  @P1 @Search @en_US
+  Scenario Outline: Parent searches for and locates item by Item Number                                  # src/test/resources/features/Search.feature:14
+    Given A Parent Who is logged-in                                                                      # SignInStepdefs.a_Parent_Who_is_logged_in()
+    When the parent searches for "#21B4"                                                                 # SearchStepdefs.parentShouldSearchFor(String)
+    Then the parent should be presented with the "Flip and Flop", "Pre-K-2", "by Dawn Apperley", "12.95" # SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)
+
+  @P1 @Search @en_US
+  Scenario Outline: Parent searches for and locates item by Item Number                                    # src/test/resources/features/Search.feature:15
+    Given A Parent Who is logged-in                                                                        # SignInStepdefs.a_Parent_Who_is_logged_in()
+    When the parent searches for "#78K4"                                                                   # SearchStepdefs.parentShouldSearchFor(String)
+    Then the parent should be presented with the "Snowman Magic", "Pre-K-1", "by Katherine Tegen", "12.99" # SearchResultsStepdefs.shouldBePrsentedWithItemDetails(String,String,String,String)
